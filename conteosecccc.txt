@@ -1,0 +1,32 @@
+mkdir secuencias
+cd secuencias
+nano especie.txt
+(pegar secuencia)
+CTRL + O
+CTRL + X
+nano contador.py
+archivo = open("nombre archivo fasta", "r")
+
+secuencia = archivo.read()
+
+print("Secuencia:")
+print(secuencia)
+
+print("Cantidad de A:", secuencia.count("A"))
+print("Cantidad de T:", secuencia.count("T"))
+print("Cantidad de C:", secuencia.count("C"))
+print("Cantidad de G:", secuencia.count("G"))
+CTRL + O
+CTRL + X
+python contador.py
+python3 contador.py (este si no funciona)
+
+
+ASÍ DEBE DE SALIR
+Secuencia:
+ATGCGCGTAATTAAGCGCGCTAATGCGCGC
+
+Cantidad de A: 7
+Cantidad de T: 7
+Cantidad de C: 9
+Cantidad de G: 10
