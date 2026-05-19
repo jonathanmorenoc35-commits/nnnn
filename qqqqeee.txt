@@ -1,0 +1,8 @@
+jonathanmorenoc35@cloudshell:~$ pwd
+/home/jonathanmorenoc35
+jonathanmorenoc35@cloudshell:~$ cd
+jonathanmorenoc35@cloudshell:~$ cd ..
+jonathanmorenoc35@cloudshell:/home$ cd.. 
+-bash: cd..: command not found
+jonathanmorenoc35@cloudshell:/home$ cd ..
+jonathanmorenoc35@cloudshell:/$ 
